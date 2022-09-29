@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Padokas</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  
+</head>
+
+<body>
+  
+  <header class="home" id="home">
+    <div class="container">
+      <div class="hamburguer-menu">
+        <i class="fas fa-bars toggle"></i>
+        <i class="fas fa-times toggle"></i>
+      </div>
+      <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid" src="images/padinha.png" width="240px" alt="">
+        </a>
+        <ul class="nav-list text-center p-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Página inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#chefs">Faça um pedido</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-text w-100 text-white px-2 px-sm-0">
+        <h2 class="display-4">Bem-vindo !</h2>
+        <p class="lead mb-4">Conheça a melhor panificadora do Brasil !</p>
+        <a class="btn" href="#about">Saiba mais</a>
+        <a class="btn ms-3" href="#chefs">Faça um pedido</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row align-items-lg-center">
+          <div class="col-12 col-md-6 text-center text-md-start" data-aos="fade-right">
+            <div class="section-heading mb-3">
+              <h4></h4>
+              <h2 class="display-4">Sobre nós</h2>
+            </div>
+            <p>Estamos a 30 anos fornecendo oque há de melhor experiência de uma padaria pra nossos clientes, hoje somos referência no Brasil. Em um amplo espaço muito bem localizado na região de São Paulo, a Padaria Padokas é o ambiente ideal para uma agradável refeição, charmoso para reunir amigos e familiares e desfrutar de momentos especiais.</p>
+            <a class="btn mt-4 mb-5 mb-md-0" href="#chefs">Faça um pedido !</a>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <img class="img-fluid" src="images/about-img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info" id="info">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-up">
+            <div class="shop-info">
+              <i class="far fa-clock mb-3"></i>
+              <h2 class="mb-4">Horário de funcionamento</h2>
+              <p>Seg a Sex: 8:00 - 18:00</p>
+              <p>Sabádos e Domingos: 8:00 - 13:00</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-down">
+            <div class="shop-info">
+              <i class="fas fa-map-marked-alt mb-3"></i>
+              <h2 class="mb-4">Venha nos conhecer !</h2>
+              <address>
+                Av. Paulista, 1415 <br>
+                São Paulo - SP
+              </address>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-right">
+            <div class="shop-info">
+              <i class="fas fa-mobile-alt mb-3"></i>
+              <h2 class="mb-4">Fale conosco</h2>
+              <p>Telefone : (11)97777-7777</p>
+              <p>Email: padaria.padokas@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+
+      <div class="menu-tasty container-fluid p-0" id="menu">
+        <div class="section-heading my-5 text-center">
+          <h4 class="text-white"></h4>
+          <br>
+          <br>
+          <h2 class="display-4">Conheça alguns de nossos produtos :</h2>
+          <br>
+          <br>
+          <br>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-0 order-xl-0">
+            <img class="img-fluid" src="images/baguete.jpg" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-left" data-aos="fade-in">
+            <div class="menu-item-desc">
+              <h6>R$10,00 por unidade</h6>
+              <h2>Baguete</h2>
+              <p>Baguete (do francês baguette) é uma variedade de pão francês característico por sua forma alongada e casca crocante com recheios derivados.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Peça já !</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-2">
+            <img class="img-fluid" src="images/bolochocolate.jpg" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-3 point-left">
+            <div class="menu-item-desc">
+              <h6>R$35,00 por unidade</h6>
+              <h2>Bolo de chocolate</h2>
+              <p>Os bolos são um dos componentes principais das festas, como as de aniversário e casamento, por vezes ornamentados artisticamente e ocupando o lugar central da mesa. No entanto, também são feitos para serem comidos em lanches, sobremesas e até café-da-manhã em fatias.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Peça já !</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-4">
+            <img class="img-fluid" src="images/paodequeijo.png" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-left">
+            <div class="menu-item-desc">
+              <h6>R$3,00 a cada 100 gramas</h6>
+              <h2>Pão de queijo</h2>
+              <p>O pão de queijo é uma iguaria oriunda de Minas Gerais, muito difundida em todo o Brasil. Embora não haja registro de local e época exata de sua criação, há consenso de que tenha se originado em Minas Gerais em meados do Século XVIII.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Peça já !</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1">
+            <img class="img-fluid" src="images/paofrances.jpg" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-0 order-xl-0 point-right">
+            <div class="menu-item-desc">
+              <h6>R$5,50 por kg.</h6>
+              <h2>Pão francês</h2>
+              <p>O pao francês, também conhecido como pão cacetinho, pãozinho ou pão de sal, é um tipo de pão feito de farinha, sal, água e fermento.Este pão tem um exterior crocante, e é popular no Chile, Brasil, na região dos Andes da Bolívia e do Peru mas também pode ser encontrado na Argentina e no Uruguai.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Peça já !</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-3">
+            <img class="img-fluid" src="images/capucifefef.png" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-2 point-right">
+            <div class="menu-item-desc">
+              <h6>R$4,00</h6>
+              <h2>Capuccino</h2>
+              <p>Um cappuccino clássico, muito famoso no Brasil e consiste em um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado. Variações populares do cappuccino como o café latte e o macchiato consistem basicamente na alteração destas proporções. O uso de chocolate em pó no cappuccino é uma prática comum no Brasil, mas não faz parte da receita tradicional.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Peça já !</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+            <img class="img-fluid" src="images/Coxinha-de-Frango-scaled.jpg" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-4 point-right">
+            <div class="menu-item-desc">
+              <h6>R$6,00 por nuidade</h6>
+              <h2>Coxinha de frango</h2>
+              <p>This cake is amazing! I recommend it to everyone.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Peça já !</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef" id="chefs">
+      <div class="container">
+        <div class="section-heading my-5 text-center">
+          <h4></h4>
+          <h2 class="display-4">Faça um pedido</h2>
+
+<br>
+<br>
+<br>
+
+          <!--formulario-->
+          <div id="teste">
+          
+            <form
+              action="https://formsubmit.co/leonardomarinhocapristo@gmail.com"
+              method="POST"
+              class="form"
+            >
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" required />
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" required />
+              <label for="message">Pedido</label>
+              <textarea name="message" id="message" required></textarea>
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://leonardocapristo.github.io/Projeto-Interdisciplinar/obrigado.html"
+              />
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <!--formulario-->
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 col-md-4" data-aos="fade-right">
+           
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-5">
+      &copy; Projeto Interdisciplinar 2022 Universidade Cruzeiro do Sul
+    </footer>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
